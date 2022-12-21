@@ -1,5 +1,4 @@
 import React from 'react'
-import { createRoot } from 'react-dom/client'
 import './Intro.css'
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
@@ -39,8 +38,21 @@ const Intro = () => {
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
             <img src={boy} alt="" />
-            <div>
-                <FloatingDiv image={Crown}/>
+            <img src={glassesimoji} alt="" />
+            <div style={{top:'-4%', left:'68%'}}>
+                <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
+                <div style={{top:'18rem',left:'0rem'}}>
+                    <FloatingDiv image={thumbup} txt1='Best Design'
+                     txt2='Award'/>
+                </div>
+                <div className="blur" style={{background:"rgb( 238 210 255)"}}></div>
+                <div className="blur" style={{
+                    background:'#C1F5FF',
+                    top:"17rem",
+                    width:"15rem",
+                    height:"15rem",
+                    left:"-9rem",                   
+                        }}></div>
             </div>
         </div>
     </div>
