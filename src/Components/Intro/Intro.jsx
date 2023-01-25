@@ -27,7 +27,6 @@ const Intro = () => {
         </div>
 
         <div className="i-right">
-            I am right side.
         </div>
     </div>
   )
